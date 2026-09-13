@@ -119,7 +119,7 @@ function ParticulasAmbientales() {
   const [objeto, setObjeto] =
     useState(null)
 
-  const cantidad = 900
+  const cantidad = 0
 
   useEffect(() => {
 
@@ -373,7 +373,7 @@ function PuntosHolograma({
 
     const cantidad =
       Math.min(
-        32000,
+        90000,
         posicion.count
       )
 
@@ -458,9 +458,9 @@ function PuntosHolograma({
       const separacion =
         Math.pow(
           Math.random(),
-          9.8
+          90
         ) *
-        0.655
+        0.955
 
 
       const px =
@@ -557,11 +557,11 @@ function PuntosHolograma({
 
         color: '#49E2FF',
 
-        size: 0.014,
+        size: 0.0001,
 
         transparent: true,
 
-        opacity: 0.68,
+        opacity: 0.18,
 
         depthWrite: false,
 
